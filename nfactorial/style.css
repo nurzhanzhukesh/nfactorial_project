@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: black;
+    --link-color: green;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--text-color)
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    padding: 22px 0 15px;
+    margin: 0 24px 0 0;
+    font-family: "Albert Sans", sans-serif;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: #303133;
+    top: 0;
+}
+
+.right-nav {
+    margin-left: 20px;
+}
+
+.main-nav {
+    justify-content: space-between;
+    padding: 0;
+    width: 80%;
+}
+
+.material-icons {
+    padding-right: 6px;
+}
+
+.tn-icon-weather-partly-cloudy {
+    width: 22px;
+    height: 22px;
+    background-image: url(/img/weather/weather-partly-cloudy.svg);
+}
+
+.tn-weather-widget {
+    display: contents;
+    cursor: pointer;
+}
+
+.contact-links {
+    margin: 0 24px 0 0;
+    font-family: "Albert Sans", sans-serif;
+    color: white;
+}
+
+.hover-link {
+    cursor: pointer;
+}
+
+.hover-link:hover {
+    color: var(--link-color);
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    padding-bottom: 30px;
+}
+
+.card {
+    height: 370px;
+    box-shadow: 0 0 4px #d4ecff;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin: auto;
+}
+.card:hover {
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-3px);
+}
+
+.card-header img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.add-info {
+    align-items: center;
+    padding: 8px;
+}
+
+#view-icon, #comment-icon{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.card-content {
+    padding: 12px;
+}
+
+.nav-text {
+    color: white;
+    font-size: small;
+    padding-right: 4px;
+}
+
+.menu {
+    width: 80%;
+    justify-content:space-between
+}
+
+.menu-nav {
+    margin: 30px;
+}
+
+.menu-links {
+    margin: 30px;
+    cursor: pointer;
+}
+
+.menu-nav img {
+    margin-right: 30px;
+}
+
+.menu-nav a {
+    margin-left: 20px;
+}
+
+.menu-nav a:hover {
+    color: var(--link-color);
+}
+
+.menu-links a, input {
+    margin-right: 20px;
+}
+
+.menu-links input {
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(212, 213, 215);
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+    width: 20em;
+}
+
+.menu-links a, .menu-links a img {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    height: auto;
+    justify-content: space-between;
+    background-color: #303133;
+}
+
+.footer-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-top, .footer-top-links, .footer-top-media, .footer-bottom {
+    justify-content: space-between;
+}
+
+.footer-top-links {
+    margin: 0;
+}
+
+.footer-top-links a {
+    padding: 22px 0 15px;
+    margin: 0 24px 0 0;
+    font-family: "Albert Sans", sans-serif;
+    color: white;
+}
+
+.footer-top-links a:hover {
+    color: var(--link-color);
+}
+
+.footer-top-media .redac, .footer-top-media .reclam{
+    margin-right: 20px;
+}
+
+.footer-top-media {
+    margin: 0;
+}
+
+.media-icons {
+    margin: 0;
+}
+
+.date-time {
+    width: 100%;
+    color: #505152;
+    padding-bottom: 10px;
+
+}
+
+.head-single {
+    font-size: 46px;
+    padding-bottom: 10px;
+}
+
+.article-content {
+    align-items:center;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.article-main-content img{
+    width: 450px;
+    margin: auto;
+    display: block;
+}
+
+
+.more {
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.small-card {
+    margin-bottom: 15px;
+}
+
+.small-card a:hover {
+    color: var(--link-color);
+    cursor: pointer;
+}
