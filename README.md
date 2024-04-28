@@ -1,6 +1,6 @@
 # Tengri News Clone by NURZHAN ZHUKESH
 ## Инструкции по настройке:
-- Склонируйте репозиторий с помощью следующей команды: `git clone https://github.com/nurzhanzhukesh/nfactorial_project.git`
+- Склонируйте репозиторий с помощью следующей команды: <git clone https://github.com/nurzhanzhukesh/nfactorial_project.git>
 - В файле database/connection.php укажите данные для подключения к вашей базе данных.
 - Импортируйте SQL-файл **news.sql** с данными новостей в свою базу данных.
 - Запустите локальный сервер или разверните проект на хостинге.
